@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Evaluación Final - Html</title>
+  </head>
+  <body>
+    <header>
+      <img src="../img/jdg.svg" alt="jdg.svg"  title="jdg.svg" width="150px">
+      <h1>Hoja de Vida</h1>
+      <p>
+        <h2>Joaquín Darío González</h2>
+        <h3>10/03/1981 - Misiones, Argentinas</h3>
+      </p>
+    </header>
+    <section>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="../html/experiencia.html">Experiencia</a></li>
+      </ul>
+      <p>
+        <h2>Educación</h2>
+      </p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td>Ingenierio Electrónico</td>
+          <td>Universidad Nacional de Córdoba</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>1999</td>
+          <td>Bachiller</td>
+          <td>Colegio Eistein, Mar del Plata</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>1994</td>
+          <td>Primario</td>
+          <td>Colegio Salesiano, Corrientes</td>
+          <td>Sí</td>
+        </tr>
+      </table>
+      <h2>Agregar Estudios</h2>
+      <form autocomplete="on" name="Estudios">
+        <legend></legend>
+        <p>
+          <label for="Año"><strong>Año:</strong></label>
+          <select id="Año">
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+          </select>
+        </p>
+        <p>
+          <label for="Institucion"><strong>Institucion:</strong></label>
+          <input type="text" name="Institucion" value="" required>
+        </p>
+        <p>
+          <label for="Lugar"><strong>Lugar:</strong></label>
+          <textarea name="Lugar" rows="5" cols="40"></textarea>
+        </p>
+        <p>
+          <label for="Culmino"><strong>¿Culminó?</strong></label>
+          <input type="radio" name="Culmino" checked><b>Si</b>
+          <input type="radio" name="Culmino"><b>No</b>
+        </p>
+        <p>
+          <input type="submit" name="Enviar" value="Enviar">
+        </p>
+      </form>
+    </section>
+    <footer>
+      <p>
+        @Derechos Reservados
+      </p>
+      <ul>
+        <li><a href="mailto:joaquin@elvirasoft.com" target="_blank">email: joaquin@elvirasoft.com</a></li>
+        <li><a href="tel:+5492613363812" target="_blank">llamar:+549-2613363812</a></li>
+        <li><strong>Dirección:</strong> Gutierrez 650 piso 3 dpto 23, Mendoza, Argtentina</li>
+      </ul>
+    </footer>
+  </body>
+  </html>
